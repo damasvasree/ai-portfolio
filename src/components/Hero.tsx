@@ -49,7 +49,7 @@ export default function Hero() {
             </a>
 
   <a
-    href="/resume.pdf"
+    href="/damasvasree_resume.pdf"
     download
     className="border border-cyan-500 px-7 py-3 rounded-xl hover:bg-cyan-500/10 transition"
   >
