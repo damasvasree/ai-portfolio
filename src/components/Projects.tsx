@@ -2,40 +2,56 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const projects = [
+   {
+    title: "Next-Gen Digi Health",
+    description:
+  "Developed a full-stack AI-powered healthcare management platform connecting patients, doctors, and hospitals with features like e-prescriptions, appointment scheduling, pharmacy integration, and analytics dashboard.",
+tech: [
+  "Python","Flask","MongoDB","Web Application","Health-Tech","Healthcare Management","E-Prescription","Hospital Management System","RAG","AI Chatbot","Ollama","Pharmacy System","Role-Based Authentication"
+],
+    link: "https://github.com/damasvasree/Next-Gen-Digi-Health",
+  },
+  {
+      title: "India Trip Planner",
+    description:
+      "Full-stack AI-powered India Trip Planner with real-time weather integration, interactive maps, and dynamic itinerary generation built using React, Node.js, and Express.",
+    tech: [
+  "React",
+  "Node.js",
+  "JavaScript",
+  "Express",
+  "Web Application",
+  "Weather API",
+  "Full Stack",
+  "Interactive Maps",
+  "Travel Planner",
+  "API Integration",
+  "Vite",
+  "Itinerary Generator"
+],
+    link: "https://github.com/damasvasree/India-Trip-Planner",
+  },
   {
     title: "E-Commerce Cohorts Dashboard",
     description:
       "Developed a real-time customer retention analytics dashboard using React and FastAPI with WebSocket integration. Optimized backend queries and data processing pipelines to improve response performance and scalability.",
     tech: ["React", "FastAPI", "WebSocket", "Analytics"],
-    link: "https://github.com/damasvasree-nagaraj/E-Commerce-Cohorts-Dashboard",
-  },
-  {
-    title: "Next-Gen Digi Health",
-    description:
-      "Built a secure telemedicine web platform enabling digital consultations, authentication workflows, and scalable frontend architecture with clean UI/UX design principles.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    link: "https://github.com/damasvasree-nagaraj/Next-Gen-Digi-Health",
+    link: "https://github.com/damasvasree/E-Commerce-Cohorts-Dashboard",
   },
   {
     title: "Cyber Range Scheduler",
     description:
       "Designed a real-time scheduling platform for cybersecurity labs using React, Node.js, and MongoDB, ensuring efficient resource allocation and conflict-free session management.",
     tech: ["React", "Node", "MongoDB"],
-    link: "https://github.com/damasvasree-nagaraj/Cyber-Range-Scheduler",
+    link: "https://github.com/damasvasree/Cyber-Range-Scheduler",
   },
-  {
-    title: "CTC to In-Hand",
-    description:
-      "Engineered a salary breakdown calculator that computes in-hand salary, tax deductions, and compensation insights using dynamic financial logic.",
-    tech: ["JavaScript"],
-    link: "https://github.com/damasvasree-nagaraj/CTC-to-InHand",
-  },
+  
   {
     title: "Digi Health AI Chatbot",
     description:
       "Developed an ML-based healthcare chatbot leveraging trained classification models and REST API integration to provide symptom prediction and conversational assistance.",
     tech: ["Python", "Machine Learning"],
-    link: "https://github.com/damasvasree-nagaraj/Digi-Health-AI-chatbot",
+    link: "https://github.com/damasvasree/Digi-Health-AI-chatbot",
   },
 ];
 
@@ -113,7 +129,7 @@ export default function Projects() {
       {/* GITHUB BUTTON */}
       <div className="text-center mt-32">
         <a
-          href="https://github.com/damasvasree-nagaraj"
+          href="https://github.com/damasvasree"
           target="_blank"
           rel="noreferrer"
           className="px-8 py-3 rounded-xl border border-cyan-500 hover:bg-cyan-500/10 transition"

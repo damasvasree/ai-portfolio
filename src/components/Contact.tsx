@@ -78,7 +78,7 @@ export default function Contact() {
 
             <motion.a
               whileHover={{ scale: 1.06 }}
-              href="https://github.com/damasvasree-nagaraj"
+              href="https://github.com/damasvasree"
               target="_blank"
               rel="noreferrer"
               className="px-8 py-4 rounded-xl border border-purple-500 text-purple-400 hover:bg-purple-500/10 transition-all duration-300 hover:shadow-[0_0_30px_rgba(168,85,247,0.6)]"
