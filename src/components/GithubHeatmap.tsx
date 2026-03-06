@@ -8,7 +8,7 @@ export default function GithubHeatmap() {
       </h3>
 
       <div className="flex justify-center">
-        <GitHubCalendar username="damasvasree-nagaraj" />
+        <GitHubCalendar username="damasvasree" />
       </div>
     </div>
   );
